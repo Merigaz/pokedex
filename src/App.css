@@ -1,0 +1,37 @@
+.header {
+  background-color: #9B3A3A;
+  width: 100vw;
+  height: 12vh;
+  display:flex;
+  justify-content: space-between
+}
+.mainContainer {
+  width: 100vw;
+  height: 75vh;
+  display: flex;
+  flex-direction: row;
+}
+.footer {
+  background-color: #DADD42;
+  width: 100vw;
+  height: 12vh;
+}
+.sidebar{
+  width: 20vw;
+  background-color: #74B85C;
+}
+.articleContainer {
+  display: flex; 
+  flex-wrap: wrap;
+  width:100%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.articleContainer article {
+margin: 10px;
+width: 260px;
+height: 260px;
+background-color: aqua;
+}
