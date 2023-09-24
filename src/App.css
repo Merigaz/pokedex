@@ -1,9 +1,13 @@
+body {
+  margin: 0;
+}
 .header {
-  background-color: #9B3A3A;
+  background-color: #9b3a3a;
   width: 100vw;
   height: 12vh;
-  display:flex;
-  justify-content: space-between
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .mainContainer {
   width: 100vw;
@@ -12,26 +16,35 @@
   flex-direction: row;
 }
 .footer {
-  background-color: #DADD42;
+  background-color: #dadd42;
   width: 100vw;
   height: 12vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.sidebar{
+.sidebar {
   width: 20vw;
-  background-color: #74B85C;
+  background-color: #74b85c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .articleContainer {
-  display: flex; 
+  display: flex;
   flex-wrap: wrap;
-  width:100%;
+  width: 100%;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
 
 .articleContainer article {
-margin: 10px;
-width: 260px;
-height: 260px;
-background-color: aqua;
+  margin: 10px;
+  width: 260px;
+  height: 260px;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
